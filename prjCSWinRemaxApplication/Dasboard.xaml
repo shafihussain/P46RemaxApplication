@@ -1,0 +1,35 @@
+﻿<Window x:Class="prjCSWinRemaxApplication.Dasboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prjCSWinRemaxApplication"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Dasboard" Height="562.75" Width="905" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid Margin="0,0,0,-58">
+        <Rectangle Fill="#FFFFFF" HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="703" Margin="197,498,0,0"/>
+        <Rectangle Fill="#FF2ABA79" HorizontalAlignment="Left" Height="561" VerticalAlignment="Top" Width="196" Margin="-4,0,0,0"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="0,157,0,0" VerticalAlignment="Top" Width="192" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Height="53" FontFamily="Times New Roman"/>
+        <materialDesign:PackIcon Kind="Earth" Width="53" Height="32" VerticalAlignment="Center" Margin="-5,110,0,360" Foreground="White"/>
+        <Button Content="Manage Properties" HorizontalAlignment="Left" Margin="0,206,0,0" VerticalAlignment="Top" Width="192" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Height="46" FontFamily="Times New Roman"/>
+        <materialDesign:PackIcon Kind="home" Width="30" Height="30" HorizontalContentAlignment="Left" Margin="5 215" Foreground="White"/>
+        <Button Content="Manage Agents" HorizontalAlignment="Left" Margin="0,257,0,0" VerticalAlignment="Top" Width="192" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Height="46" FontFamily="Times New Roman"/>
+        <materialDesign:PackIcon Kind="Account" Width="30" Height="30" Margin="5 265" Foreground="White"/>
+        <Button Content="Property Gallery" HorizontalAlignment="Left" Margin="5,308,0,0" VerticalAlignment="Top" Width="187" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Height="46" FontFamily="Times New Roman"/>
+        <materialDesign:PackIcon Kind="Image" Width="30" Height="30" Margin="5 309" Foreground="White"/>
+        <Button x:Name="btnExit" Content="X" HorizontalAlignment="Left" Margin="865,0,0,586" Width="30" Background="#FFFFFEFE" Foreground="Black" BorderBrush="White" Click="btnExit_Click"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="561" Margin="192,0,0,0" VerticalAlignment="Top" Width="7"/>
+        <TabControl HorizontalAlignment="Left" Height="529" VerticalAlignment="Top" Width="704" Margin="193,30,0,0">
+            <TabItem Header="Agents Management">
+                <Grid Background="#FFE5E5E5" Margin="-30,-54,-6,-4"/>
+            </TabItem>
+            <TabItem Header="PropertyManagement">
+                <Grid Background="#FFE5E5E5" Margin="-29,-51,-89,-75">
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="1,409,0,0" VerticalAlignment="Top" Width="187" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Height="46" FontFamily="Times New Roman"/>
+
+    </Grid>
+</Window>
