@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:prjCSWinRemaxApplication"
         mc:Ignorable="d"
         Title="MainWindow" Height="508" Width="905" WindowStyle="None">
-    <Grid Margin="0,0,-5,0" Height="503" VerticalAlignment="Top">
+    <Grid Margin="0,0,-5,0" Height="503" VerticalAlignment="Center" HorizontalAlignment="Center">
 
         <Rectangle Fill="#FF1F1E1E" HorizontalAlignment="Left" Height="503" VerticalAlignment="Top" Width="488"/>
         <Label Content="Welcome" HorizontalAlignment="Left" Margin="32,84,0,0" VerticalAlignment="Top" Foreground="#FF656565" FontFamily="Microsoft JhengHei Light" FontSize="20" Width="233"/>
